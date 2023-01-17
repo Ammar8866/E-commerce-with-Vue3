@@ -7,7 +7,7 @@
     </div>
     <div class="login-data">
         <form action="login.html">
-            <img src="../assets/login profile.png">
+            <!-- <img src="../assets/login profile.png"> -->
             <h2 class="title">Welcome</h2>
             <div class="input-div">
                 <div class="i">
