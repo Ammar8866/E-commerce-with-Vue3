@@ -948,7 +948,8 @@ export default {
     }
 
     #butn3 {
-        margin-left: 38%
+        margin-left: 38%;
+        margin-top: 40px;
     }
 
     #contact {
@@ -974,6 +975,7 @@ export default {
 
     .customers {
         margin-left: 0;
+        margin-top: 70px;
     }
 
     #customers2 {
@@ -1011,7 +1013,7 @@ export default {
     .six2 {
         border: 0px solid;
         width: 50%;
-        padding: 10px 0px 0px 10px;
+        padding: 8px 0px 0px 10px;
 
     }
 

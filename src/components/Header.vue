@@ -157,6 +157,7 @@ export default {
 
     .icons {
         display: flex;
+        margin: 0px -5px -1px -14px;
     }
 
     .logo i {
