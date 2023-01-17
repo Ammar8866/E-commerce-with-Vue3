@@ -3,7 +3,7 @@
 <img class="wave" src="../assets/background.png">
 <div class="main-container">
     <div class="Social-img">
-        <img src="../assets/Social.png">
+        <!-- <img src="../assets/Social.png"> -->
     </div>
     <div class="login-data">
         <form action="login.html">
