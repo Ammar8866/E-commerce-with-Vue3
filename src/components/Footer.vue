@@ -2,54 +2,55 @@
 <!-- -----------------footer-------------------- -->
 <footer class="site-footer">
     <div class="container">
-      <div class="row">
-        <div class="col-sm-12 col-md-6">
-          <h6>Shop.in</h6>
-          <p class="text-justify">“In the beginning, e-commerce was really about getting commodity products online as cheaply as possible. Now, we’re moving into the more exciting phase of e-commerce, where it’s about emotional products – the things people really cherish.” </p>
-        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <h6>Shop.in</h6>
+                <p class="text-justify">“In the beginning, e-commerce was really about getting commodity products online as cheaply as possible. Now, we’re moving into the more exciting phase of e-commerce, where it’s about emotional products – the things people really cherish.” </p>
+            </div>
 
-        <div class="col-xs-6 col-md-3">
-          <h6>Shop</h6>
-          <ul class="footer-links">
-            <li><a href="">My account</a></li>
-            <li><a href="">Orders</a></li>
-            <li><a href="">Downloads</a></li>
-            <router-link to="/Login">Logout</router-link>
-          </ul>
-        </div>
+            <div class="col-xs-6 col-md-3">
+                <h6>Shop</h6>
+                <ul class="footer-links">
+                    <li><a href="">My account</a></li>
+                    <li><a href="">Orders</a></li>
+                    <li><a href="">Downloads</a></li>
+                    <router-link to="/Login">Logout</router-link>
+                </ul>
+            </div>
 
-        <div class="col-xs-6 col-md-3">
-          <h6>Support</h6>
-          <ul class="footer-links">
-            <router-link to="/Shop">Shop</router-link>
-            <li><a href="">Track Order</a></li>
-            <li><a href="">Wishlist</a></li>
-            <li><a href="/Home#contact">Contact</a></li>
-          </ul>
+            <div class="col-xs-6 col-md-3">
+                <h6>Support</h6>
+                <ul class="footer-links">
+                    <router-link to="/Shop">Shop</router-link>
+                    <li><a href="">Track Order</a></li>
+                    <li><a href="">Wishlist</a></li>
+                    <li><a href="/Home#contact">Contact</a></li>
+                </ul>
+            </div>
         </div>
-      </div>
-      <hr>
+        <hr>
     </div>
     <div class="container">
-      <div class="row">
-        <div class="col-md-8 col-sm-6 col-xs-12">
-          <p class="copyright-text">Copyright 2022 Shop.in | Design by Ammar Zaidi
-            <router-link to="/Home">Shop.in</router-link>
-          </p>
-        </div>
+        <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+                <p class="copyright-text">Copyright 2022 Shop.in | Design by Ammar Zaidi
+                    <router-link to="/Home">Shop.in</router-link>
+                </p>
+            </div>
 
-        <div class="col-md-4 col-sm-6 col-xs-12">
-          <ul class="social-icons">
-            <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-            <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
-          </ul>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <ul class="social-icons">
+                    <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                    <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+            </div>
         </div>
-      </div>
     </div>
 </footer>
 </template>
+
 <script>
 export default {
     name: 'Footer',
@@ -140,6 +141,7 @@ export default {
     margin: 0
 }
 
+/* ------------------------------------MEDIA QUERIES RESPONSIVE-------------------------- */
 @media (max-width:991px) {
     .site-footer [class^=col-] {
         margin-bottom: 30px

@@ -167,6 +167,8 @@ export default {
     width: 100%;
 }
 
+/* ------------------------------------MEDIA QUERIES MOBILE RESPONSIVE-------------------------- */
+
 @media only screen and (min-width: 300px) and (max-width: 1250px) {
     .pagination {
         margin-left: 0;

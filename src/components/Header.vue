@@ -11,20 +11,20 @@
 
             </div>
             <div class="newmenu">
-                <router-link to="/Home" >Home</router-link>
-                <router-link to="/Shop" >Shop</router-link>
+                <router-link to="/Home">Home</router-link>
+                <router-link to="/Shop">Shop</router-link>
                 <router-link to="/Blog">Blog</router-link>
-                <a href="/Home#contact">Contact us</a>
-                <router-link to="/Login">Login</router-link>
+                <a href="/Home#contact" id="response1">Contact us</a>
+                <router-link to="/Login" id="response1">Login</router-link>
             </div>
 
             <div class="icons">
                 <a>
                     <input type="text" id="searching" placeholder="Search" v-model="queryEntered">
                     <router-link :to="{name: 'Search' , params:{query:queryEntered}}"> <button class="sercbtn"><i class="fa-solid fa-magnifying-glass"></i></button></router-link>
-                </a>   
+                </a>
                 <router-link to="/Login"><button class="cart" id="cart2" data-toggle="dropdown">Cart</button></router-link>
-                <a href="/Login">
+                <a href="/Login" id="response2">
                     <i class="fa-solid fa-right-from-bracket"></i>
                 </a>
             </div>
@@ -34,7 +34,6 @@
 </template>
 
 <script>
-
 export default {
     name: 'Header',
 
@@ -142,8 +141,9 @@ export default {
     font-size: 17px;
 }
 
+/* ------------------------------------MEDIA QUERIES MOBILE RESPONSIVE-------------------------- */
 
-@media only screen and (min-width: 320px) and (max-width: 650px) {
+@media only screen and (min-width: 300px) and (max-width: 650px) {
 
     /* Navigation */
     .navigation {
@@ -151,13 +151,44 @@ export default {
         justify-content: space-between;
     }
 
-
-    #cart2{
+    #cart2 {
         display: none;
     }
 
     .icons {
         display: flex;
+    }
+
+    .logo i {
+        display: none;
+    }
+
+    .newmenu a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        padding: 0px 0px 0px 14px;
+        margin-left: 10px;
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+    #searching {
+        margin: 0px 0px 0px 40px;
+        padding: 0;
+
+    }
+
+    #response1 {
+        display: none;
+    }
+
+    #response2 {
+        display: none;
+    }
+
+    .sercbtn {
+        width: 20%;
+        background-color: rgb(247, 47, 47);
     }
 }
 </style>

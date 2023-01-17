@@ -16,36 +16,36 @@
                                 <img :src="item.thumbnail" class="img-fluid" alt="Generic placeholder image">
                             </div>
                             <div class="col-md-2 d-flex justify-content-center">
-                                <div>
-                                    <p class="small text-muted mb-4 pb-2">Name</p>
+                                <div class="res">
+                                    <p class="small text-muted mb-4 pb-2" id="res1">Name</p>
                                     <p class="lead fw-normal mb-0">{{ item.title }}</p>
                                 </div>
                             </div>
                             <div class="col-md-2 d-flex justify-content-center">
                                 <div>
-                                    <p class="small text-muted mb-4 pb-2">Stock</p>
-                                    <p class="lead fw-normal mb-0">
+                                    <p class="small text-muted mb-4 pb-2" id="res1">Stock</p>
+                                    <p class="lead fw-normal mb-0" id="res2">
                                         {{ item.stock }}</p>
                                 </div>
                             </div>
                             <div class="col-md-2 d-flex justify-content-center">
                                 <div>
-                                    <p class="small text-muted mb-4 pb-2">Quantity</p>
+                                    <p class="small text-muted mb-4 pb-2" id="res1">Quantity</p>
                                     <p class="lead fw-normal mb-0">{{ item.quantity }} * ${{ item.price-10 }}</p>
                                 </div>
                             </div>
                             <div class="col-md-2 d-flex justify-content-center">
                                 <div>
-                                    <p class="small text-muted mb-4 pb-2">Actual Price</p>
-                                    <p class="lead fw-normal mb-0">${{ item.price }}</p>
+                                    <p class="small text-muted mb-4 pb-2" id="res3">Actual Price</p>
+                                    <p class="lead fw-normal mb-0" id="res4">${{ item.price }}</p>
                                 </div>
                             </div>
                             <div class="col-md-2 d-flex justify-content-center">
                                 <div>
-                                    <p class="small text-muted mb-4 pb-2">Discount Total</p>
-                                    <p class="lead fw-normal mb-0"> ${{ item.price-10 }}</p>
+                                    <p class="small text-muted mb-4 pb-2" id="res5">Discount Total</p>
+                                    <p class="lead fw-normal mb-0" id="res6"> ${{ item.price-10 }}</p>
                                 </div>
-                                <div class="remove">
+                                <div class="remove" id="res7">
                                     <button class="removebtn" @click="remove()">
                                         <i class="fa-sharp fa-solid fa-xmark"></i>
                                     </button>
@@ -89,7 +89,7 @@ export default {
         Header,
         Footer
     },
-// ----------------------------------Cart Data dispatch--------------------------------------
+    // ----------------------------------Cart Data dispatch--------------------------------------
     computed: {
         cart() {
             // console.log(this.$store.state.product,'Products add/remove')
@@ -126,5 +126,41 @@ export default {
 
 .removebtn :hover {
     color: rgb(255, 255, 255);
+}
+
+/* ------------------------------------MEDIA QUERIES MOBILE RESPONSIVE-------------------------- */
+
+@media only screen and (min-width: 300px) and (max-width: 1250px) {
+    .res {
+        padding: 30px 7px 28px 7px;
+    }
+}
+
+#res1 {
+    padding: 10px 11px 0px 11px;
+}
+
+#res2 {
+    padding: 0px 16px 12px 17px;
+}
+
+#res3 {
+    padding: 24px 14px 26px 14px;
+}
+
+#res4 {
+    padding: 0px 20px 18px 26px;
+}
+
+#res5 {
+    padding: 15px 6px 0px 0px;
+}
+
+#res6 {
+    padding: 0px 0px 10px 15px;
+}
+
+#res7 {
+    margin: 28px -113px 10px 88px;
 }
 </style>

@@ -853,6 +853,8 @@ export default {
     width: 100%;
 }
 
+/* ------------------------------------MEDIA QUERIES MOBILE RESPONSIVE-------------------------- */
+
 @media only screen and (min-width: 300px) and (max-width: 1250px) {
 
     /* Home */
@@ -862,7 +864,7 @@ export default {
         background-image: url('../assets/model.png');
         background-repeat: no-repeat;
         background-size: contain;
-        border: 1px solid red;
+        border: 0px solid red;
     }
 
     .text-block {
@@ -886,6 +888,8 @@ export default {
         margin: 0;
         left: 25%;
         position: absolute;
+        height: 30px;
+        width: 90px;
     }
 
     .second {
@@ -898,6 +902,7 @@ export default {
 
     .third1 {
         display: block;
+        margin-left: 6rem;
 
     }
 
@@ -906,6 +911,7 @@ export default {
         flex-direction: column;
         position: relative;
         margin-bottom: 180%;
+        margin-left: 10px;
     }
 
     .six {
@@ -921,19 +927,19 @@ export default {
 
     .fourth h4 {
         color: rgb(0, 0, 0);
-        padding: 75px 0px 0px 100px;
+        padding: 75px 0px 0px 90px;
 
     }
 
     .fourth h1 {
         color: deeppink;
-        padding: 0px 0px 0px 50px;
+        padding: 0px 0px 0px 39px;
 
     }
 
     .fourth h5 {
         color: rgb(102, 4, 148);
-        padding: 0px 0px 0px 75px;
+        padding: 0px 0px 0px 70px;
 
     }
 
@@ -942,7 +948,7 @@ export default {
     }
 
     #butn3 {
-        margin-left: 40%
+        margin-left: 38%
     }
 
     #contact {
@@ -962,7 +968,8 @@ export default {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom: -300px;
+        margin-bottom: -400px;
+        margin-top: -1px;
     }
 
     .customers {
@@ -975,6 +982,74 @@ export default {
 
     .average {
         display: none;
+    }
+
+    .seven {
+        height: 22vh;
+    }
+
+    .seven h1 {
+        font-size: 30px;
+
+    }
+
+    .seven h5 {
+        font-size: 20px;
+    }
+
+    .texts {
+        margin: 0px 0px 0px 10px;
+        padding: 40px 53px 0px 38px;
+
+    }
+
+    .divide {
+        display: none;
+    }
+
+    .six2 {
+        border: 0px solid;
+        width: 50%;
+        padding: 10px 0px 0px 10px;
+
+    }
+
+    .six2 h1 {
+        color: rgb(255, 0, 0);
+        font-size: 20px;
+
+    }
+
+    .six2 h5 {
+        color: blue;
+        font-size: 10px;
+
+    }
+
+    .catalog {
+        border: 2px solid rgb(255, 0, 179);
+        box-shadow: #432ad3 5px 5px 5px 4px;
+        border-radius: 30px;
+        height: 4vh;
+        width: 120px;
+        /* display: flex;
+    flex-wrap: wrap; */
+        margin: 5px 0px 50px 54px;
+        background-color: #e2f7dd;
+    }
+
+    .catalog h4 {
+        padding: 10px 0px 0px 18px;
+        color: rgb(43, 8, 245);
+        font-size: 10px;
+    }
+
+    .six1 {
+        border: 0px solid;
+        height: 33vh;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        display: flex;
     }
 
 }

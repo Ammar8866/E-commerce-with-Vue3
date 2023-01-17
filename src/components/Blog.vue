@@ -69,4 +69,21 @@ export default {
     width: 90%;
     padding: 0px 0px 0px 0px;
 }
+
+/* ------------------------------------MEDIA QUERIES MOBILE RESPONSIVE-------------------------- */
+
+@media only screen and (min-width: 300px) and (max-width: 1250px) {
+
+    .blog {
+        background-image: linear-gradient(to right, #cae4ec, #f8d2ec, #d8fccf);
+        padding: 60px 0px 0px 30px;
+
+    }
+
+    .blog h2 {
+        padding: 45px 0px 45px 0px;
+        font-size: 30px;
+    }
+
+}
 </style>

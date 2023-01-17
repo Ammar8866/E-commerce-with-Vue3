@@ -252,6 +252,8 @@ a:hover {
     background-position: right;
 }
 
+/* ------------------------------------MEDIA QUERIES RESPONSIVE-------------------------- */
+
 @media screen and (max-width: 1050px) {
     .container {
         grid-gap: 5rem;

@@ -75,4 +75,15 @@ export default {
     display: flex;
     padding: 0px 0px 0px 52px;
 }
+
+/* ------------------------------------MEDIA QUERIES MOBILE RESPONSIVE-------------------------- */
+
+@media only screen and (min-width: 300px) and (max-width: 1250px) {
+    .Shirts {
+        height: 90vh;
+        margin: 1px 0px 3px 30px;
+        height: 65vh;
+    }
+
+}
 </style>

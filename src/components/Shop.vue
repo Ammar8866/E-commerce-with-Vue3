@@ -58,7 +58,7 @@ export default {
 
 <style scoped>
 .categories {
-    background-image: linear-gradient(to right, #cae4ec, #f8d2ec, #d8fccf);
+    background-image: linear-gradient(to right, #cae4ec, #f8d2ec, #cae4ec);
     margin: -6px 0px 0px 0px;
     display: flex;
     border: 0px solid;
@@ -69,25 +69,38 @@ export default {
 .categories h1 {
     color: darkred;
     padding: 40px 0px 3px 80px;
-
 }
 
 .categories h5 {
     color: darkblue;
     padding: 3px 0px 3px 90px;
-
 }
 
 .flex2 {
     display: flex;
     flex-wrap: wrap;
-    background-image: linear-gradient(to right, #cae4ec, #f8d2ec, #d8fccf);
+    background-image: linear-gradient(to right, #cae4ec, #f8d2ec, #cae4ec);
 
 }
 
+/* ------------------------------------MEDIA QUERIES MOBILE RESPONSIVE-------------------------- */
+
 @media only screen and (min-width: 300px) and (max-width: 1250px) {
+    .categories {
+        background-image: linear-gradient(to right, #cae4ec, #f8d2ec, #cae4ec);
+
+    }
+
+    .categories h1 {
+        padding: 40px 0px 3px 20px;
+    }
+
+    .categories h5 {
+        padding: 3px 0px 3px 15px;
+    }
+
     .flex2 {
-        margin-left: 2.5rem;
+        background-image: linear-gradient(to right, #cae4ec, #f8d2ec, #cae4ec);
     }
 
 }
