@@ -3,11 +3,11 @@
 <img class="wave" src="../assets/background.png">
 <div class="main-container">
     <div class="Social-img">
-        <img src="../assets/Social.png">
+        <img src="../assets/media.png">
     </div>
     <div class="login-data">
         <form action="login.html">
-            <img src="../assets/login profile.png">
+            <img src="../assets/profile.png">
             <h2 class="title">Welcome</h2>
             <div class="input-div">
                 <div class="i">
