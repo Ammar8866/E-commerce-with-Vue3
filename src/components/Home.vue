@@ -949,7 +949,7 @@ export default {
 
     #butn3 {
         margin-left: 38%;
-        margin-top: 40px;
+        margin-top: 120px;
     }
 
     #contact {
