@@ -986,6 +986,7 @@ export default {
 
     .seven {
         height: 22vh;
+        margin-top: -140px;
     }
 
     .seven h1 {
@@ -998,7 +999,7 @@ export default {
     }
 
     .texts {
-        margin: 0px 0px 0px 10px;
+        margin: 30px 0px 0px 10px;
         padding: 40px 53px 0px 38px;
 
     }
