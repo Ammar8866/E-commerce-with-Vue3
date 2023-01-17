@@ -884,7 +884,7 @@ export default {
     }
 
     #butn1 {
-        top: 130%;
+        top: 139%;
         margin: 0;
         left: 25%;
         position: absolute;
@@ -968,7 +968,7 @@ export default {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom: -400px;
+        margin-bottom: -310px;
         margin-top: -1px;
     }
 
